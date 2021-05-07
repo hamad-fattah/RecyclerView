@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="spacer8dp" format="dimension"/>
+    <attr name="spacer16dp" format="dimension"/>
+    <attr name="spacer24dp" format="dimension"/>
+    <attr name="spacer32dp" format="dimension"/>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.example.recyclerview.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+    android:id="@+id/CountriesFragment"
+    android:name="com.example.recyclerview.CountriesFragment"
+    android:label="Countries Fragment"
+    tools:layout="@layout/fragment_countries" />
+
+    <fragment
+        android:id="@+id/FootballFragment"
+        android:name="com.example.recyclerview.FootballFragment"
+        android:label="Football Fragment"
+        tools:layout="@layout/fragment_football_teams" />
+
+    <fragment
+        android:id="@+id/blank"
+        android:name="com.example.recyclerview.Blank"
+        android:label="Blank"
+        tools:layout="@layout/blank"
+
+
+        />
+
+    <action android:id="@+id/action_to_CountriesFragment" app:destination="@id/CountriesFragment" />
+    <action android:id="@+id/action_to_FootballFragment" app:destination="@id/FootballFragment" />
+    <action android:id="@+id/action_to_blank" app:destination="@+id/blank"/>
+
+</navigation>

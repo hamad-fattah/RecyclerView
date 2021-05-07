@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="button_blank_one">blank_1</string>
+    <string name="button_blank_two">blank_2</string>
+</resources>
